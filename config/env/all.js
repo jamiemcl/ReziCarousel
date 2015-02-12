@@ -4,7 +4,7 @@ module.exports = {
 	app: {
 		title: 'ReziCarousel',
 		description: 'Rezi Carousel Software',
-		keywords: 'Carousel Software, Rezi, Screenz, Screenz'
+		keywords: 'Carousel Software, Rezi, Screenz'
 	},
 	port: process.env.PORT || 3000,
 	templateEngine: 'swig',

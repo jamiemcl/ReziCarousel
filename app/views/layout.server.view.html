@@ -45,10 +45,13 @@
 
 <body class="ng-cloak">
 	<header data-ng-include="'/modules/core/views/header.client.view.html'" class="navbar navbar-fixed-top navbar-inverse"></header>
-	<section class="content">
-		<section class="container">
+
+
+	<section class="container-fluid">
+		<aside data-ng-include="'/modules/core/views/sidemenu.client.view.html'"></aside>
+		<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 			{% block content %}{% endblock %}
-		</section>
+		</div>
 	</section>
 
 	<!--Embedding The User Object-->
